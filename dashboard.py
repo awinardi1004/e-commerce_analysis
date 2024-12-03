@@ -73,7 +73,7 @@ def create_product_performance_df(df):
 
 
 # Load cleaned data
-all_df = pd.read_csv("E-commerce/all_data.csv")
+all_df = pd.read_csv("data/all_data.csv")
 
 # create fillter data
 datetime_columns = ["order_purchase_timestamp", "order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date"]
